@@ -15,6 +15,8 @@ header {
     justify-content: flex-start;
     border: solid 1px darkgreen;
     width: 290px;;
+
+    
 }
 .header-center {
     display: flex;
