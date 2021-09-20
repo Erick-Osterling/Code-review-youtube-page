@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    border: solid 2px blue;
+    height: 60px;
+    justify-content:space-between;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: solid 1px darkgreen;
+    width: 290px;;
+}
+.header-center {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px magenta;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: solid 1px green;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;   
+}
+.youtube-icon {
+    width: 100px;
+    height: auto;
+    align-self: center;
+    
+}
+
+.searching {
+    width: 500px;
+    height: 30px;
+}
+.search-icon-box {
+height: 34px;
+width: 70px;
+display: flex;
+border: solid 1px gray;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.search-icon {
+    width: 40px;
+}
+
+.mic-icon {
+    width: 35px;
+    margin: 20px;
+}
+
+.top-right-icon {
+    margin-right: 30px;
+    height: 30px;
+}
+
+
+.below-header {
+    border: solid 2px green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px orange;
+    width: 60%;
+    justify-content: top;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    width: 30%;
+    justify-content: top;
+}
+.video-info {
+    width: 1126.8px;
+}
+
+.thum-info {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 14px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 12px;
+    width: 200px;
+    line-height: 18px;
+    white-space: nowrap;
+}
